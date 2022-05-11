@@ -1,4 +1,4 @@
-package com.example.jhb.config;
+package com.bobo.jhb.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.jhb.commom;
+package com.bobo.jhb.commom;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

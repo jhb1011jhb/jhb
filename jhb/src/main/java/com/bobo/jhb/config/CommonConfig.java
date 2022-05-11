@@ -1,4 +1,4 @@
-package com.example.jhb.config;
+package com.bobo.jhb.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;

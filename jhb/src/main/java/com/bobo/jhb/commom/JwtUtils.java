@@ -1,4 +1,4 @@
-package com.example.jhb.commom;
+package com.bobo.jhb.commom;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
