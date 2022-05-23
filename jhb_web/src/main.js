@@ -28,6 +28,13 @@ if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
 
+import { get, post, del, put } from './utils/request'
+// 引入axios依赖
+Vue.prototype.$get = get // http.get
+Vue.prototype.$post = post // http.post
+Vue.prototype.$put = put // http.put
+Vue.prototype.$del = del // http.delete
+
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
 // 如果想要中文版 element-ui，按如下方式声明
